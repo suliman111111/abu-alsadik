@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>شركة أبو الصادق للمقاولات</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1e3d59;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #16324f;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #1e4f6f;
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #1e3d59;
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      background-color: #e2eaf3;
+      margin: 8px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .contact {
+      background-color: #eaf2f8;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .social a {
+      display: inline-block;
+      margin: 5px 10px;
+      color: #1e3d59;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #1e3d59;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media screen and (max-width: 600px) {
+      nav a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        border-top: 1px solid #2a4c6a;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>شركة أبو الصادق للمقاولات العامة</h1>
+  <p>نقدم حلولاً متكاملة في البناء والتشطيب والترميم بأعلى جودة</p>
+</header>
+
+<nav>
+  <a href="#home">الرئيسية</a>
+  <a href="#services">الخدمات</a>
+  <a href="#contact">تواصل معنا</a>
+</nav>
+
+<section id="home">
+  <h2>من نحن</h2>
+  <p>شركة أبو الصادق تقدم خدمات متميزة في المقاولات العامة داخل الكويت. نتميز بالالتزام بالمواعيد وجودة التنفيذ وخدمة ما بعد التسليم.</p>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/400x250?text=مشروع+بناء" alt="مشروع بناء">
+    <img src="https://via.placeholder.com/400x250?text=تشطيب+فلل" alt="تشطيب فلل">
+    <img src="https://via.placeholder.com/400x250?text=هدم+مباني" alt="هدم مباني">
+  </div>
+</section>
+
+<section id="services">
+  <h2>خدماتنا</h2>
+  <ul>
+    <li>مقاولات بناء وتشطيب داخلي وخارجي</li>
+    <li>ترميم المباني القديمة وإعادة تأهيلها</li>
+    <li>أعمال الكهرباء والسباكة والتكييف</li>
+    <li>تصميم داخلي وواجهات عصرية</li>
+    <li>خدمات الهدم والنقل والتنظيف</li>
+  </ul>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/400x250?text=ترميمات" alt="ترميمات">
+    <img src="https://via.placeholder.com/400x250?text=تصميم+داخلي" alt="تصميم داخلي">
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>للتواصل والطلب</h2>
+  <p>📞 رقم الهاتف: <strong>+965 99296364</strong></p>
+  <p>📍 الموقع: الكويت - منطقة عبدالله المبارك</p>
+  <div class="social">
+    <p>تابعنا على:</p>
+    <a href="https://www.instagram.com/abualsadiq" target="_blank">📸 إنستغرام</a>
+    <a href="https://www.tiktok.com/@abualsadiq" target="_blank">🎥 تيك توك</a>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 شركة أبو الصادق للمقاولات - جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
